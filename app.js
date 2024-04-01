@@ -94,7 +94,7 @@ function renderNextThreeHours(data) {
 }
 const fetchData = async (cityName) => {
   const coordData = await fetch(
-    `http://api.openweathermap.org/geo/1.0/direct?q=${cityName}&limit=1&appid=${ApiKey}`
+    `https://api.openweathermap.org/geo/1.0/direct?q=${cityName}&limit=1&appid=${ApiKey}`
   );
   const data = await coordData.json();
   const lat = data[0].lat;
@@ -105,7 +105,7 @@ const fetchData = async (cityName) => {
   
 };
 const getData = async (lat, lon) => {
-  const url = `http://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${ApiKey}&cnt=5`;
+  const url = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${ApiKey}&cnt=5`;
   const weatherData = await fetch(url);
   const wdata = await weatherData.json();
   return wdata;
