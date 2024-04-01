@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SkyCast - About us</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="news.css">
+    <link rel="icon" href="images/logo/SkyCast2.png" type="image/png" />
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="responsive.css">
+  </head>
+  <body>
+    <nav id="nav-bar">
+      <span>
+        <img src="./images/logo/SkyCast2.png" alt="logo" />
+        <h1><a href="/">SkyCast</a></h1>
+      </span>
+      <ul class="nav">
+        <li> <a href="/">Home</a> </li>
+        <li ><a href="./news.html">News</a></li>
+        <li><a href="#">Contact us</a></li>
+        <li><a href="./about.html">About Us</a></li>
+        <li><a href="#">More</a></li>
+      </ul>
+      <div id="toggleButton">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <ul class="dropdown close">
+        <li> <a href="/">Home</a> </li>
+        <li ><a href="./news.html">News</a></li>
+        <li><a href="#">Contact us</a></li>
+        <li><a href="./about.html">About Us</a></li>
+        <li><a href="#">More</a></li>
+      </ul>
+    </nav>
+    
+   
+    <footer>
+        <section id="about">
+            <div class="about-container">
+              <h3>About Us</h3>
+              <p>Welcome to our weather website! We are dedicated to providing you with accurate and up-to-date weather information to help you plan your day.</p>
+              <p>Our team is passionate about meteorology and technology. We strive to deliver a user-friendly experience and valuable weather insights.</p>
+              <p>For any inquiries or feedback, please feel free to contact us:</p>
+              <ul>
+                <li style="list-style: none;">Email : SkyCastContact@gmail.com</li>
+              </ul>
+              <p>Connect with us on social media:</p>
+              <ul class="social-media">
+                <li class="center"><img src="images/social media/twitter.png" alt="Twitter"><a href="https://twitter.com/example" target="_blank">Twitter</a></li>
+                <li class="center"><img src="images/social media/facebook.png" alt="Facebook"><a href="https://facebook.com" target="_blank">Facebook</a></li>
+                <li class="center"><img src="images/social media/instagram.png" alt="Instagram"><a href="https://instagram.com" target="_blank">Instagram</a></li>
+              </ul>
+              <p>For more information, please read our <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.</p>
+            </div>
+          </section>
+          
+        <div class="section-1">
+          <div class="company">
+            <h3>Company</h3>
+            <li>
+              SkyCast is a team of IT experts and data scientists that has been
+              practising deep weather data science. For each point on the globe,
+              SkyCast provides historical, current and forecasted weather data via
+              light-speed APIs. Headquarters in London, UK.
+            </li>
+          </div>
+          <div class="technologies">
+            <h3>Technologies</h3>
+            <ul>
+              <li>Our technology</li>
+              <li>Accuracy and quality of weather data</li>
+              <li>Connect your weather station</li>
+            </ul>
+          </div>
+        </div>
+        <div class="section-2">
+  
+          <div class="terms">
+            <h3>Terms and Condtions</h3>
+            <ul>
+              <li>Terms and conditions of sale</li>
+              <li>Privacy Policy</li>
+              <li>Website terms and conditions</li>
+    
+              <li>Blog</li>
+              <li>SkyCast for Business</li>
+              <li>Ask a question</li>
+            </ul>
+          </div>
+          <div class="aboutus">
+            <h3>Contact Us</h3>
+            <li>Email : SkyCastContact@gmail.com</li>
+            <li>+91 772889898</li>
+          </div>
+        </div>
+      
+        <div class="copyright">© 2012 — 2024 SkyCast ® All rights reserved</div>
+      </footer>
+      <script src="/news.js"></script>
+      <script >
+        const toggleBtn = document.querySelector('#toggleButton');
+const dropdownMenu = document.querySelector('.dropdown');
+        toggleBtn.addEventListener('click', ()=> {
+  console.log("Jldfjl");
+  dropdownMenu.classList.toggle('close')
+  
+})
+      </script>
+  </body>
+</html>

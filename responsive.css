@@ -1,0 +1,112 @@
+@media screen and (max-width: 470px) {
+
+  
+  h1 {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 10px;
+    margin: 1px 0px;
+  }
+  h2 {
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+    color: var(--blueColor4);
+    line-height: 16px;
+    padding: 1px 3px;
+  }
+  h4 {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 4px;
+  }
+  p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .container {
+    margin-bottom: 10px 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 23px;
+    align-items: center;
+  }
+  .news-container {
+    margin: 6px 4px;
+    padding: 3px 2px;
+  }
+  #left-section {
+    width: 100%;
+  }
+  #nav-bar h1 a {
+    font-size: 24px;
+  }
+  #nav-bar img {
+    width: 46px;
+    margin: 0 6px;
+  }
+
+  .nav {
+    display: none;
+  }
+  .close{
+    display: block;    
+  }
+
+ 
+  #toggleButton {
+    
+    width: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  #toggleButton div {
+    margin-bottom: 3px;
+    padding: 2px 3px;
+    background: white;
+  }
+  .dropdown {
+    position: absolute;
+    list-style: none;
+    margin: 16px 0px;
+    padding: 2px;
+    right: 0px;
+    top: 65px;
+    border-radius: 5px;
+    background-color: #1b1d29;
+    transition: height 5s ease-in-out 3s;
+  }
+  .dropdown li {
+    margin: 12px 0px;
+    padding: 2px 0px;
+  }
+  .news{
+    margin: 0;
+  }
+  #today-image{
+    margin: 0;
+    padding: 0;
+  }
+
+  .condition{
+    font-size: 1.1rem;
+  }
+  .next-days-details{
+    padding: 0;
+    flex-wrap: wrap;
+  }
+  .day{
+    width: 37%;
+    margin:6px 0px;
+  }
+  footer {
+    padding: 6px 5px;
+    font-size: 16px;
+    line-height: 23px;
+  }
+}

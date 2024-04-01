@@ -1,0 +1,67 @@
+
+
+
+
+
+
+
+
+
+:root {
+    --blue2: #264653;
+    --navColor: #1b1d29;
+    --white: #ffffff;
+    --white2: #f2f2f2;
+    --font1: "Lato", sans-serif;
+    --fontColor: #f7c8c8;
+    --bgColor: #e3e2df;
+    --bgColor2: #222629;
+    --greenColor: #61892f;
+    --greenColor2: #86c232;
+    --blackColor: #474b4f;
+    --blackColor2: #6b6c70;
+    --blueColor3: #65ccb8;
+    --whiteColor: #f2f2f2;
+    --blueColor4: #57ba98;
+  }
+body {
+  background-color: #fff;
+  color: black;
+}
+
+
+.article-image {
+    width: 400px;
+    height: 200px;
+    overflow: hidden; /* Ensure that images don't overflow their container */
+  }
+.article-image img{
+    width: 400px;
+    
+}
+
+.news {
+  display: flex;
+  /* align-items: center; */
+  margin: 20px;
+  padding: 10px 5px;
+  line-height: 23px;
+}
+
+.news-container{
+    margin: 10px 100px;
+    padding: 5px 20px;
+    
+}
+
+.news-details {
+  margin: 10px 20px;
+  padding: 4px 5px;
+}
+
+.news-details h3 a{
+        text-decoration: none;
+        color: #1b1d29;
+        /* color: var(--blueColor4); */
+
+}

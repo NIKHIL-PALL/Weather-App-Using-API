@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>SkyCast</title>
+    <link rel="icon" href="images/logo/SkyCast2.png" type="image/png">
+    <link rel="stylesheet" href="news.css">
+    <link rel="stylesheet" href="responsive.css">
+  </head>
+  <body>
+    <nav id="nav-bar">
+      <span>
+        <img src="./images/logo/SkyCast2.png" alt="logo" />
+        <h1><a href="/">SkyCast</a></h1>
+      </span>
+      <ul class="nav">
+        <li> <a href="/">Home</a> </li>
+        <li ><a href="./news.html">News</a></li>
+        <li><a href="#">Contact us</a></li>
+        <li><a href="./about.html">About Us</a></li>
+        <li><a href="#">More</a></li>
+      </ul>
+      <div id="toggleButton">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <ul class="dropdown ">
+        <li> <a href="/">Home</a> </li>
+        <li ><a href="./news.html">News</a></li>
+        <li><a href="#">Contact us</a></li>
+        <li><a href="./about.html">About Us</a></li>
+        <li><a href="#">More</a></li>
+      </ul>
+    </nav>
+    <div class="container">
+      <section id="left-section">
+        <div id="input-container">
+          <label>Enter a City Name</label>
+          <input id="cityName" type="text" placeholder="Enter city name" />
+          <button id="search">Search</button>
+          <button id="user-location">Get Location</button>
+        </div>
+      </section>
+      <section id="right-section">
+        <div class="today-details">
+          <div id="text-details">
+            <h2 id="city">Place Name </h2>
+            <h2 class="condition"></h2>
+            <ul>
+              <li id="temp">temperature :<span></span></li>
+              <li id="wind">Wind :<span> </span></li>
+              <li id="humidity">humidity :<span> </span></li>
+
+              <li id="temp-max">Max-temp :</li>
+              <li id="temp-min">Min-temp :</li>
+              <li id="feels-like">Feels Like :</li>
+            </ul>
+          </div>
+          <div id="today-image">
+            <img
+              id="condition-image"
+              src=""
+              alt="Image"
+            />
+          </div>
+        </div>
+      </section>
+    </div>
+    <div id="forecast">
+      <h2 style="margin-left: 30px; color : black;">3 hours forecast</h2>
+      <div class="next-days-details">
+        
+      </div>
+    </div>
+    <div class="related-posts">
+      <div class="news-container">
+
+      </div>
+    </div>
+    <footer>
+      <div class="section-1">
+        <div class="company">
+          <h3>Company</h3>
+          <li>
+            SkyCast is a team of IT experts and data scientists that has been
+            practising deep weather data science. For each point on the globe,
+            SkyCast provides historical, current and forecasted weather data via
+            light-speed APIs. Headquarters in London, UK.
+          </li>
+        </div>
+        <div class="technologies">
+          <h3>Technologies</h3>
+          <ul>
+            <li>Our technology</li>
+            <li>Accuracy and quality of weather data</li>
+            <li>Connect your weather station</li>
+          </ul>
+        </div>
+      </div>
+      <div class="section-2">
+
+        <div class="terms">
+          <h3>Terms and Condtions</h3>
+          <ul>
+            <li>Terms and conditions of sale</li>
+            <li>Privacy Policy</li>
+            <li>Website terms and conditions</li>
+  
+            <li>Blog</li>
+            <li>SkyCast for Business</li>
+            <li>Ask a question</li>
+          </ul>
+        </div>
+        <div class="aboutus">
+          <h3>Contact Us</h3>
+          <li>Email : SkyCastContact@gmail.com</li>
+          <li>+91 772889898</li>
+        </div>
+      </div>
+    
+      <div class="copyright">© 2012 — 2024 SkyCast ® All rights reserved</div>
+    </footer>
+    <script src="app.js"></script>
+    <script src="news.js"></script>
+  </body>
+</html>
