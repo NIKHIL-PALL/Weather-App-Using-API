@@ -105,6 +105,9 @@
     width: 37%;
     margin:6px 0px;
   }
+  .article-image{
+    width: 83vw;
+  }
   footer {
     padding: 6px 5px;
     font-size: 16px;
