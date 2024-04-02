@@ -42,14 +42,15 @@ body {
 
 .news {
   display: flex;
-  /* align-items: center; */
+  align-items: center;
+  justify-content: center;
   margin: 20px;
   padding: 10px 5px;
   line-height: 23px;
 }
 
 .news-container{
-    margin: 10px 100px;
+    margin: 0px;
     padding: 5px 20px;
     
 }
