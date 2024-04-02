@@ -1,7 +1,6 @@
-const countries = ["us", "in", "gb", "se"];
-const url = `https://newsdata.io/api/1/news?apikey=pub_40951b3dfdef003f3645cfd336d57f5007875&q=weather&country=${
-  countries[Math.round(Math.random() * 3)]
-}&category=environment`;
+// const countries = ["us", "in", "gb", "se"];
+const url = `https://newsdata.io/api/1/news?apikey=pub_40951b3dfdef003f3645cfd336d57f5007875&q=weather&country=gb&category=environment`;
+console.log(url)
 const newsContainer = document.getElementsByClassName("news-container");
 
 fetchNews = async () => {
