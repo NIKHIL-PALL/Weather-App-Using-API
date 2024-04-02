@@ -1,16 +1,22 @@
-// const countries = ["us", "in", "gb", "se"];
+const countries = ["us", "in", "gb", "se"];
 const url = `https://newsdata.io/api/1/news?apikey=pub_40951b3dfdef003f3645cfd336d57f5007875&q=weather&country=us&category=environment`;
 
 const newsContainer = document.getElementsByClassName("news-container");
 
+let content = "<h2>Today's News</h2>";
 fetchNews = async () => {
-  const newsdata = await fetch(url);
-  const data = await newsdata.json();
-  renderNews(data);
+  try{
+
+    const newsdata = await fetch(url);
+    const data = await newsdata.json();
+    renderNews(data);
+  }
+  catch( e) {
+
+  }
 };
 
 renderNews = (data) => {
-  let content = "<h2>Today's News</h2>";
   console.log(data.results);
   // Example: Using matchMedia to apply JavaScript based on media queries
   const mq = window.matchMedia("(max-width: 470px)");
